@@ -169,7 +169,7 @@ defaultContentLanguageInSubdir = false
 
 [[menu.main]]
   name = "News"
-  url = "#news_latest"
+  url = "#news"
   weight = 2
 
 [[menu.main]]

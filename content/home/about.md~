@@ -7,7 +7,7 @@ draft = false
 widget = "about"
 
 # Order that this section will appear in.
-weight = 5
+weight = 1
 
 # List your academic interests.
 [interests]
@@ -41,6 +41,6 @@ Liang (Eric) Yang is a currently Ph.D candidate at the [City College of New York
 
 His research interests includes visual localition and sensor fusion, deep inspection, computer vision, and navigation for mobile autonomous robots.
 
-Liang Yang had won 2014 IEEE ICMA [Best Student Paper Award](http://2014.ieee-icma.org/), [2017 Best IBM CRL Intern Research Project](http://research.ibm.com/labs/china/), and 2015 ICIRA [Best Student Paper Award Finalist](http://www.icira2015.org/Channel/award.html). He interned at [IBM CRL](http://research.ibm.com/labs/china/) NLP Group last summer (2017), where he was able to collaborate with [Dr. Zhong Su](http://researcher.watson.ibm.com/researcher/view.php?person=cn-suzhong) on developing a robotic deep DJ system.
+Liang Yang had won 2014 IEEE ICMA [Best Student Paper Award](http://2014.ieee-icma.org/), 2017 [Best IBM CRL Intern Research Project](http://research.ibm.com/labs/china/), and 2015 ICIRA [Best Student Paper Award Finalist](http://www.icira2015.org/Channel/award.html). He interned at [IBM CRL](http://research.ibm.com/labs/china/) NLP Group last summer (2017), where he was able to collaborate with [Dr. Zhong Su](http://researcher.watson.ibm.com/researcher/view.php?person=cn-suzhong) on developing a robotic deep DJ system.
 
 He is planning to graduate from his doctoral program by the beginning of year 2019, and he is interested in searching summer intern for 2018.

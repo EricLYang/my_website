@@ -7,7 +7,7 @@ draft = false
 widget = "about"
 
 # Order that this section will appear in.
-weight = 5
+weight = 10
 
 # List your academic interests.
 [interests]

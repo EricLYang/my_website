@@ -41,5 +41,8 @@ filter_default = 0
   name = "Visual SLAM and Fusion"
   tag = ".slam"
 
+[[filter]]
+  name = "Unmanned System Motion Planner"
+  tag = ".gart"
 +++
 
