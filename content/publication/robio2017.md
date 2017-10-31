@@ -1,0 +1,21 @@
++++
+abstract = "Concrete spalling and crack inspection is a labor intensive and routine task. However, it plays an important role in structure health monitoring (SHM) of civil infrastructures. Autonomous inspection with robots has been regarded as one of the best ways to reduce both error and cost. This paper presents an automated approach using Unmanned Aerial Vehicle(UAV) and towards a Concrete Structure Spalling and Crack database (CSSC), which is by far the first released database for deep learning inspection. We aim locate the spalling and crack regions to assist 3D registration and visualization. For deep inspection, we provide a complete procedure of data searching, labeling, training, and post processing. We further present a visual Simultaneously Localization and Mapping(SLAM) approach for localization and reconstruction. Comparative experiments and field tests are illustrated, results show that we can achieve an accuracy over 70percentage for field tests, and more than 93 percentage accuracy with CSSC database."
+abstract_short = ""
+authors = ["Liang YANG, Bing LI, Wei LI, Zhaoming LIU, Guoyong YANG,Jizhong XIAO "]
+date = "2017-07-01"
+image_preview = ""
+math = true
+publication_types = ["1"]
+publication = "2017 IEEE Int. Conf. on Robotics and Biomimetics (ROBIO 2017)"
+publication_short = ""
+selected = true
+title = "A Robotic System Towards Concrete Structure Spalling And Crack Database"
+url_code = ""
+url_dataset = ""
+url_pdf = ""
+url_project = ""
+url_slides = ""
+url_video = ""
+
++++
+

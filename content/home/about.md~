@@ -1,0 +1,46 @@
++++
+# About/Biography widget.
+
+date = "2017-10-13T00:00:00"
+draft = false
+
+widget = "about"
+
+# Order that this section will appear in.
+weight = 5
+
+# List your academic interests.
+[interests]
+  interests = [
+    "Visual Inspection",
+    "Deep Learning",
+    "Visual SLAM",
+    "UAV and UGV motion planning and navigation"
+  ]
+
+# List your qualifications (such as academic degrees).
+[[education.courses]]
+  course = "PhD in Electrical Engineering"
+  institution = "The City Collge/City University Of New York"
+  year = 2019
+
+[[education.courses]]
+  course = "PHD in Pattern Recognition and Intelligent Systems"
+  institution = "University of Chinese Academy of Sciences"
+  year = 2017
+
+[[education.courses]]
+  course = "MS in Control System"
+  institution = "University Of Science And Technology Of China"
+  year = 2013
+ 
++++
+
+# Biography
+Liang (Eric) Yang is a currently Ph.D candidate at the [City College of New York](https://www.ccny.cuny.edu/), [City University of New York](http://www2.cuny.edu/) under the supervision of [Dr. Jizhong Xiao](http://www-ee.ccny.cuny.edu/www/web/jxiao/jxiao.html) at the [CCNY Robotics Lab](https://ccny-ros-pkg.github.io/). He had his master-doc research in [State Key Lab of Robotics, Chinese Academy of Sciences](http://english.sia.cas.cn/rh/rp/201408/t20140814_125856.html).
+
+His research interests includes visual localition and sensor fusion, deep inspection, computer vision, and navigation for mobile autonomous robots.
+
+Liang Yang had won 2014 IEEE ICMA [Best Student Paper Award](http://2014.ieee-icma.org/), [2017 Best IBM CRL Intern Research Project](http://research.ibm.com/labs/china/), and 2015 ICIRA [Best Student Paper Award Finalist](http://www.icira2015.org/Channel/award.html). He interned at [IBM CRL](http://research.ibm.com/labs/china/) NLP Group last summer (2017), where he was able to collaborate with [Dr. Zhong Su](http://researcher.watson.ibm.com/researcher/view.php?person=cn-suzhong) on developing a robotic deep DJ system.
+
+He is planning to graduate from his doctoral program by the beginning of year 2019, and he is interested in searching summer intern for 2018.

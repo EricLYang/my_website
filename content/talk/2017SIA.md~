@@ -1,0 +1,24 @@
++++
+date = "2017-01-01T00:00:00"
+title = "Deep Learning And Robotics - An Introduction"
+abstract = "Learning approaches have been widely tested to useful for classification, recognition, understanding, and control. Deep learning which is widely discussed today can help with binding the bridge between robotics and human sense, an approach combine deep understanding and control. In this report, I try to give a basic idea of deep learning, and review the latest successes of using deep learning approach for robotics. Finally, I proposed from the perspective of robotics to provide some idea for further research."
+abstract_short = ""
+event = "Chinese Academy Of Scicence Abroad Seminar"
+event_url = "pdf/deepLearningAndRobotics.pdf"
+location = "Shenyang, China"
+
+selected = false
+math = true
+
+url_pdf = "pdf/deepLearningAndRobotics.pdf"
+url_slides = ""
+url_video = ""
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+image = "headers/sia2017Talk.jpg"
+#caption = "My caption :smile:"
+
++++
+
+

@@ -1,0 +1,21 @@
++++
+abstract = "A novel kinodynamic planning framework, which covers path panning, smoothing, tracking and emergency threat managing, is proposed. The framework is proposed based on sampling-based algorithm, which is improved to ensure dynamics feasibility as well as emergency threat management ability by applying Bezier curve and Extending Forbidden respectively. The Bezier curve guarantees both G1G1 and G2G2 continuity to decrease the tracking error of our LQI based tracking controller, where two Bezier curves with different continuity order are discussed. Extending Forbidden is firstly proposed by us to enable generating multiple paths of sampling-based algorithms, thus support on-line switching to avoid emergency threats. Our main contribution is that the proposed framework is a combination of path planning with emergency threat managing, where a time compromised moving obstacle avoiding method is proposed. Results proves the efficiency of the proposed algorithm in generating feasible trajectory for SERVOHELI-40, which not only guarantees kinematic feasible of avoiding obstacles, but also can ensure dynamics feasibility."
+abstract_short = ""
+authors = ["Liang Yang, Juntong Qi, Yang Cao, Yuqing He, Jianda Han, Jizhong Xiao"]
+date = "2015-08-20"
+image_preview = ""
+math = true
+publication_types = ["1"]
+publication = "International Conference on Intelligent Robotics and Applications"
+publication_short = ""
+selected = false
+title = "UAV Path Planning Framework Under Kinodynamic Constraints in Cluttered Environments(Best Student Paper Award Finalist)"
+url_code = ""
+url_dataset = ""
+url_pdf = "https://link.springer.com/chapter/10.1007/978-3-319-22876-1_22"
+url_project = ""
+url_slides = ""
+url_video = ""
+
++++
+

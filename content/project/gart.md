@@ -1,0 +1,66 @@
++++
+# Date this page was created.
+date = "2015-01-01"
+
+# Project title.
+title = "GARTPathPlanner"
+
+# Project summary to display on homepage.
+summary = "Thanks to U.S. Army Research Office grant and GSSI donation for visual SLAM and IMU fusion research for high aacuracy positioning and reconstruction"
+
+# Optional image to display on homepage (relative to `static/img/` folder).
+image_preview = "IJAR/realexperiment.jpg"
+
+# Tags: can be used for filtering projects.
+# Example: `tags = ["machine-learning", "deep-learning"]`
+tags = ["gart", "robotsInspection", "IGVC", "robotics", "design", "autonomous-robot"]
+
+# Optional external URL for project (replaces project detail page).
+external_link = ""
+
+# Does the project detail page use math formatting?
+math = false
+
+# Optional featured image (relative to `static/img/` folder).
+[header]
+#image = "IROS2017/pipeline.jpg"
+caption = "motionPlanner"
+
++++
+We address the task of enable unmanned vehicles to explore in cluttered environment with [Sampling Based Algorithm](https://en.wikipedia.org/wiki/Motion_planning#Sampling-based_algorithms), especially [Rapidly-exploring Random Tree](https://en.wikipedia.org/wiki/Rapidly-exploring_random_tree). First, we proposed a gauassian distribution based ellipse (2D, or ellipsoid 3D) modeling approach to perform environment representation. The gaussian-ellipse model enable a virtual-force like vectorized information to guid the sampling fo random exploration. Second, we introduced a bidirectional potential field (BPF) to redistribute each newly sampled state, such that the in-collision samples can be redistributed for extension. The common potential field is a combination of goal biasing and obstacle respulsion, which does not help with a higher efficiency over narrow corridor. The proposed BPF is able to re-generate sampling around obstacle if collision occurred, where the distance toward obstacle using gaussian model acts a inverse factor for redistribution.
+
+Illustration of gaussian-ellipse model around obstacle surface, where the gaussian model parameters are decided by the sensor model:
+
+![This is an image](/img/IJAR/gaussianModel.JPG)
+
+To enable the using of obstacle information, especially the narrow corridor region in cluttered environment, BPF introduces internal repulsion and external attraction only for obstacle. The BPF performs re-generation around collision region, and deploys re-disbution to enable large safety envelop. 
+
+![This is an image](/img/IJAR/bpf.jpg)
+
+We show some comparisons with currently successful algorithms and one real test. 
+
+![This is an image](/img/IJAR/real.jpg)
+![This is an image](/img/IJAR/realexperiment.jpg)
+![This is an image](/img/IJAR/template_Page_2.jpg)
+
+If you interest, please check the following papers:
+
+- [1] L. Yang, J. Xiao, J. Qi, L. Yang, L. Wang, and J. Han. GART: An environment-guided path planner for robots in crowded environments under kinodynamic constraints. International Journal of Advanced Robotic Systems, vol.13, no. 6, pp:1 ~ 12, 2016.
+- [2]L. Yang, D. Song, J. Xiao, J. Han, L. Yang, Y. Cao. Generation of Dynamically Feasible and Collision Free Trajectory by Applying Six-Order Bezier Curve and Local Optimal Reshaping. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2015).
+- [3]L. Yang, J. Qi, Z. Jiang, D. Song, J. Han, and J. Xiao, “Guiding Attraction based Random Tree Path Planning under Uncertainty: Dedicate for UAV”, IEEE Int. Conf. on Mechatronics and Automation (ICMA2014), Tianjin, China, Aug.3~6, 2014. (Best Student Paper Award).
+
+
+Our latest research has been invited to be published in Kinematics, InTech Press. We proposed a multi-paths planner for online obstacle avoidance, which introduces a "Extending-forbidden" method to shift the extending resource for multiple paths generation.
+
+Illustration of multi-path generation:
+
+![This is an image](/img/IJAR/figure.jpg)
+
+Also, we proposed a online visible path connection for switching approach for agile obstacle avoidance:
+
+![This is an image](/img/IJAR/figure_11.jpg)
+
+The 3D demo is illustrated:
+
+![This is an image](/img/IJAR/figure_12.jpg)
+
